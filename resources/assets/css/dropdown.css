@@ -1,0 +1,104 @@
+.dropdown {
+    /*display: inline-block;*/
+    position: relative;
+}
+.dropdown .dropdown-handle {
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    outline: none !important;
+}
+.dropdown .dropdown-handle.with-caret {
+    padding-right: 30px !important;
+}
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #FFF;
+    width: 100%;
+    z-index: 50;
+}
+.dropdown.dropup .dropdown-content {
+    top: 0;
+    transform: translate(0, -100%);
+}
+.dropdown .dropdown-content.anchor-right {
+    right: 0;
+    left: auto;
+}
+
+.dropdown:not([disabled]).open .dropdown-content {
+    display: block;
+}
+
+
+.dropdown[disabled] .dropdown-handle {
+    cursor: default;
+    background-color: rgb(235, 235, 228);
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.dropdown .dropdown-content.with-caret:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #FFF;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.dropdown.hover:hover .dropdown-content {
+    display: block;
+}
+
+/*
+custom
+
+
+
+*/
+.dropdown-list {
+    display: block;
+    list-style: none;
+    background: #FFF;
+    border: 1px solid #EEE;
+    border-top: none;
+    margin: -2px 0 0;
+    padding: 2px 0 0;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
+
+ul.dropdown-list{
+    overflow: scroll;
+    max-height: 200px;
+}
+.dropdown.dropup .dropdown-list {
+    border: 1px solid #EEE !important;
+    border-bottom: none !important;
+    margin: 0 0 -2px;
+    padding: 0 0 2px;
+}
+.dropdown-list .dropdown-list-item {
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    color: #888;
+    line-height: normal;
+}
+
+.dropdown-list .dropdown-list-item:hover, .dropdown-list .dropdown-list-item:focus {
+    background: #F6F6F6;
+    outline: none;
+}

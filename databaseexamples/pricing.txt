@@ -1,0 +1,68 @@
+{
+  "pricing": {
+    "titles":[
+      {"id":"GB2GE","title":"დიდი ბრიტანეთი - საქართველო"},
+      {"id":"GE2GB","title":"საქართველო - დიდი ბრიტანეთი"}
+    ],
+    "GB2GE":[
+      {
+        "image_url":"/images/lowPrice.png",
+        "title":"უპრეცედენტოდ დაბალი ფასი",
+        "list": [
+          {"description": "პერსონალური ამანათი 5.00 კილოგრამიდან", "value": "1კგ. <span lang='en'>£2.00</span>"},
+          {"description": "ონლაინ ამანათი", "value": "1კგ. <span lang='en'>≈$5.00</span>"}
+        ]
+      },
+      {
+        "highlight": true,
+        "image_url":"/images/kg.png",
+        "title":"მინიმალური ფასი",
+        "list":[
+          {"description":"პერსონალური ამანათი","value":"1კგ.-5კგ. <span lang='en'>£2.50</span>"},
+          {"description":"ონლაინ ამანათის მინიმალური ტარიფი ","value":"0.00 გრ. - 200 გრ.-მდე <span lang='en'>≈$1.00</span> "}
+        ]
+      },
+      {
+        "image_url":"/images/home-delivery.png",
+        "title":"საკურიერო მომსახურეობა",
+        "list": [
+          {"description":"პერსონალური ამანათი - ლონდონში M25 არეალი- 50.00 კილოგრამიდან", "value":"კილოგრამზე დანამატი <span lang='en'>£0.60"},
+          {"description":"პერსონალური ამანათი - თბილისი სახლი და საქართველოს რეგიონები(საქ. ფოსტის ოფისები)", "value":"კილოგრამზე დანამატი <span lang='en'>£0.50</span>"},
+          {"description":"ონლაინ ამანათი - თბილისი სახლი და საქართველოს რეგიონები(საქ. ფოსტის ოფისები)", "value":"0.00 - 5.00 კგ.-ზე დანამატი <span lang='en'>≈$1.20</span>"},
+          {"description":"", "value":"5.00 - 10.00 კგ.-ზე დანამატი <span lang='en'>≈$2.00</span>"},
+          {"description":"", "value":"10.00 - 30.00 კგ.-ზე დანამატი <span lang='en'>≈$4.00</span>"}
+        ]
+      }
+    ],
+    "GE2GB":[
+      {
+        "image_url":"/images/lowPrice.png",
+        "title":"უპრეცედენტოდ დაბალი ფასი",
+        "list":[
+          {"description":"ამანათის გაგზავნა 50.00 კილოგრამიდან","value":"1კგ. <span lang='en'>£4.50</span>"},
+          {"description":"ამანათის გაგზავნა 1.00კგ-50.00კგ-მდე","value":"1კგ. <span lang='en'>£5.00</span>"}
+        ]
+      },
+      {
+        "highlight": true,
+        "image_url":"/images/kg.png",
+        "title":"მინიმალური ფასი",
+        "list":[
+          {"description":"ანანათის გაგზავნა 1.00კგ -50.00 კგ. ჩათვლით","value":"1კგ. <span lang='en'>£5.00</span>"},
+          {"description":"50.00 კგ.დან ზევით","value":"1კგ. <span lang='en'>£4.50</span>"}
+        ]
+      },
+      {
+        "image_url":"/images/home-delivery.png",
+        "title":"საკურიერო მომსახურეობა",
+        "list": [
+          {"description":"პერსონალური ამანათი - ლონდონში M25 არეალი- 50.00 კილოგრამიდან", "value":"კილოგრამზე დანამატი <span lang='en'>£0.60"},
+          {"description":"პერსონალური ამანათი - თბილისი სახლი და საქართველოს რეგიონები(საქ. ფოსტის ოფისები)", "value":"კილოგრამზე დანამატი <span lang='en'>£0.50</span>"},
+          {"description":"ონლაინ ამანათი - თბილისი სახლი და საქართველოს რეგიონები(საქ. ფოსტის ოფისები)", "value":"0.00 - 5.00 კგ.-ზე დანამატი <span lang='en'>£0.85</span>"},
+          {"description":"", "value":"5.00 - 10.00 კგ.-ზე დანამატი <span lang='en'>£1.40</span>"},
+          {"description":"", "value":"10.00 - 30.00 კგ.-ზე დანამატი <span lang='en'>£2.85</span>"}
+        ]
+      }
+    ]
+  }
+}

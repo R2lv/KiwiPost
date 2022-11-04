@@ -1,0 +1,17 @@
+@import '~material-design-icons/iconfont/material-icons.css';
+
+/* Latin */
+@font-face {
+    font-family: 'BPG Rioni Vera';
+    src: url(/fonts/geo/bpg-rioni-vera-webfont.woff) format('woff'),
+        url(/fonts/geo/bpg-rioni-vera-webfont.woff2) format('woff2'),
+        url(/fonts/geo/bpg-rioni-vera-webfont.ttf) format('truetype'),
+        url(/fonts/geo/bpg-rioni-vera-webfont.svg) format('svg');
+}
+@font-face {
+    font-family: 'BPG Nino Mtavruli';
+    src: url(/fonts/geo/bpg-nino-mtavruli-webfont.woff) format('woff'),
+    url(/fonts/geo/bpg-nino-mtavruli-webfont.woff2) format('woff2'),
+    url(/fonts/geo/bpg-nino-mtavruli-webfont.ttf) format('truetype'),
+    url(/fonts/geo/bpg-nino-mtavruli-webfont.svg) format('svg');
+}

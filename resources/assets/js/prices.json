@@ -1,0 +1,71 @@
+{
+  "personal": [
+    {
+      "from": "UK",
+      "to": "GE",
+      "prices": [
+        {
+          "from": 0,
+          "to": 5,
+          "price": 2.5
+        },
+        {
+          "from": 5,
+          "to": "Infinity",
+          "price": 2
+        }
+      ]
+    },
+    {
+      "from": "GE",
+      "to": "UK",
+      "prices": [
+        {
+          "from": 0,
+          "to": 50,
+          "price": 5
+        },
+        {
+          "from": 5,
+          "to": "Infinity",
+          "price": 4.5
+        }
+      ]
+    }
+  ],
+  "online": [
+
+    {
+      "from": "UK",
+      "to": "GE",
+      "prices": [
+        {
+          "from": 0,
+          "to": 5,
+          "price": 2.5
+        },
+        {
+          "from": 5,
+          "to": "Infinity",
+          "price": 2
+        }
+      ]
+    },
+    {
+      "from": "GE",
+      "to": "UK",
+      "prices": [
+        {
+          "from": 0,
+          "to": 50,
+          "price": 5
+        },
+        {
+          "from": 5,
+          "to": "Infinity",
+          "price": 4.5
+        }
+      ]
+    }
+  ]
+}

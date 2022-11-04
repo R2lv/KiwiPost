@@ -1,0 +1,38 @@
+.hamburger {
+    position: relative;
+}
+
+.hamburger span {
+    display: block;
+    height: 12%;
+    width: 100%;
+    background: #73c540;
+    position: absolute;
+    transform: translate(0, -50%);
+    transition: .15s ease-out;
+}
+
+.hamburger span:first-child {
+    top: 25%;
+}
+.hamburger span:nth-child(2) {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.hamburger span:last-child {
+    top: 75%;
+}
+
+.hamburger.open span:first-child {
+    transform: translate(0, -50%) rotate(45deg);
+    top: 50%;
+}
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+    width: 0;
+    transform: translate(-100%, -50%);
+}
+.hamburger.open span:last-child {
+    transform: translate(0, -50%) rotate(-45deg);
+    top: 50%;
+}
